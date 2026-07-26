@@ -1,5 +1,5 @@
-  <p align="center">
-  <img src="https://raw.githubusercontent.com/MR73BIIO/MR73BIIO/main/assets/Baner.png" 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/071e6bee-2b9d-4f6e-b617-ba62004e786d" 
        alt="MR73BIIO — Where roots meet code" 
        width="100%">
 </p>
@@ -24,6 +24,7 @@
 ---
 
 > *„Każda idea, która rodzi się uczciwie w biciu serca, może przekroczyć każdą granicę, a jej czas ma większą wagę niż każda waluta."*  
+> *Every idea born honestly in the heartbeat can cross any border, and its time weighs more than any currency.*  
 > **MR73BIIO · Pulsus Cordis Tui · 1998**
 
 ---
