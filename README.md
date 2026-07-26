@@ -1,6 +1,5 @@
-
 readme_content = '''<p align="center">
-  <img src="https://raw.githubusercontent.com/MR73BIIO/MR73BIIO/fcf7740/assets/Baner.png" 
+  <img src="https://raw.githubusercontent.com/MR73BIIO/MR73BIIO/main/assets/Baner.png" 
        alt="MR73BIIO — Where roots meet code" 
        width="100%">
 </p>
@@ -105,9 +104,3 @@ On top: **Bonferroni correction** for 64 parameter combinations — because argm
 </p>
 
 <p align="center"><em>Pulsus Cordis Tui — time is the only currency that does not come back.</em></p>
-'''
-
-with open('/mnt/agents/output/README.md', 'w', encoding='utf-8') as f:
-    f.write(readme_content)
-
-print("Plik gotowy. Znaki:", len(readme_content))
