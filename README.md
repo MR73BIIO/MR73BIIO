@@ -33,11 +33,11 @@
 
 ### 🌲 GIS & Tree Cadastre
 Drone imagery → GIS-ready inventory. 10k+ trees mapped from a single flight.  
-*Python · QGIS · GeoJSON* · [Case study →](#)
+*Python · QGIS · GeoJSON* · [Case study →](https://github.com/MR73BIIO/drone-tree-cadastre)
 
 ### 📊 Data Extraction & ETL
 German invoice PDFs → validated CSV/Excel. Raw exchange feeds → gap-free archives.  
-*Python · Pandas · Linux · VPS* · [Case study →](#)
+*Python · Pandas · Linux · VPS* · [Case study →](https://github.com/MR73BIIO/german-invoice-extractor)
 
 ### 🧪 Strategy Audit
 OOS split + Bonferroni correction. I ran 256 variants of my own strategy through it: **0 passed. 0 deployed.**  
