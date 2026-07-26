@@ -1,4 +1,4 @@
-readme_content = '''<p align="center">
+  <p align="center">
   <img src="https://raw.githubusercontent.com/MR73BIIO/MR73BIIO/main/assets/Baner.png" 
        alt="MR73BIIO — Where roots meet code" 
        width="100%">
