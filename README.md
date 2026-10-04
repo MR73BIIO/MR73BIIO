@@ -18,7 +18,8 @@
   <a href="https://mr73biio.github.io">🌐 Services & Pricing</a> · 
   <a href="https://x.com/MR73BIIO_Q">𝕏 @MR73BIIO_Q</a> · 
   <a href="https://www.linkedin.com/in/marcin-ruszczak-27b37b19b">💼 LinkedIn</a> · 
-  <a href="https://www.tradingview.com/u/MR73BIIO_Q/">📈 TradingView</a>
+  <a href="https://www.tradingview.com/u/MR73BIIO_Q/">📈 TradingView</a> · 
+  <a href="https://mr73biio.github.io/puls.html">💓 Work log</a>
 </p>
 
 ---
@@ -30,6 +31,10 @@
 ---
 
 ## What I do
+
+### 🗺️ GIS Data QA
+Official boundaries of 2,479 Polish municipalities (PRG/TERC), seven check rules, and errors I break in on purpose and log one by one. 160 of 160 found, 0 false alarms. The PASS / REVIEW / REJECT verdicts checked against the truth: 10 of 10.  
+*Python · GeoPandas · PRG/TERC* · [Repo →](https://github.com/MR73BIIO/voro-gis-qa) · [DOI v0.2](https://doi.org/10.5281/zenodo.23138611) · [Work log →](https://mr73biio.github.io/puls.html)
 
 ### 🌲 GIS & Tree Cadastre
 Drone imagery → GIS-ready inventory. 10k+ trees mapped from a single flight.  
