@@ -36,6 +36,11 @@
 Official boundaries of 2,479 Polish municipalities (PRG/TERC), seven check rules, and errors I break in on purpose and log one by one. 160 of 160 found, 0 false alarms. The PASS / REVIEW / REJECT verdicts checked against the truth: 10 of 10.  
 *Python · GeoPandas · PRG/TERC* · [Repo →](https://github.com/MR73BIIO/voro-gis-qa) · [DOI v0.2](https://doi.org/10.5281/zenodo.23138611) · [Work log →](https://mr73biio.github.io/puls.html)
 
+### 🌳 Tree Register QA · DACH
+
+Three public city tree registers checked against what each city says about its own data: Zürich, Wien, Berlin, 1,276,769 records. Every prediction committed before the measurement. In Berlin the share of trees with crown 0 m ranges from 0.23 % to 60.36 % between districts: same dataset, same field, 262 × difference.
+*Python · WFS · Open Data* · [Repo →](https://github.com/MR73BIIO/voro-tree-qa) · [DOI v0.2](https://doi.org/10.5281/zenodo.23455971) · [Work log →](https://mr73biio.github.io/puls.html)
+
 ### 🌲 GIS & Tree Cadastre
 Drone imagery → GIS-ready inventory. 10k+ trees mapped from a single flight.  
 *Python · QGIS · GeoJSON* · [Case study →](https://github.com/MR73BIIO/drone-tree-cadastre)
@@ -52,6 +57,7 @@ OOS split + Bonferroni correction. I ran 256 variants of my own strategy through
 
 ## Proof of work
 
+- **1,276,769 tree records** from three cities measured, every prediction in git before the run → Berlin M0 9/14, D0 3/8, D1 6/7
 - **149 live trades** audited through `audit.py` → **REJECTED** (saved me from deploying a false edge)
 - **256 strategy variants** tested out-of-sample against four symbols, four market regimes, on Hyperliquid perpetuals → **0 survived** the Bonferroni-corrected threshold
 - **10,000+ trees** mapped from single drone flight to GIS-ready cadastre
