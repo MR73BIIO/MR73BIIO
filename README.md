@@ -38,7 +38,7 @@ Official boundaries of 2,479 Polish municipalities (PRG/TERC), seven check rules
 
 ### 🌳 Tree Register QA · DACH
 
-Three public city tree registers checked against what each city says about its own data: Zürich, Wien, Berlin, 1,276,769 records. Every prediction committed before the measurement. In Berlin the share of trees with crown 0 m ranges from 0.23 % to 60.36 % between districts: same dataset, same field, 262 × difference.
+Three public city tree registers checked against what each city says about its own data: Zürich, Wien, Berlin, 1,276,769 records. Every prediction committed before the measurement. In Berlin the share of trees with crown 0 m ranges from 0.23 % to 60.36 % between districts: same dataset, same field, 262 × difference.  
 *Python · WFS · Open Data* · [Repo →](https://github.com/MR73BIIO/voro-tree-qa) · [DOI v0.2](https://doi.org/10.5281/zenodo.23455971) · [Work log →](https://mr73biio.github.io/puls.html)
 
 ### 🌲 GIS & Tree Cadastre
@@ -54,10 +54,12 @@ OOS split + Bonferroni correction. I ran 256 variants of my own strategy through
 *Python · SciPy · Statistics* · [See the audit →](https://github.com/MR73BIIO/strategy-validation)
 
 ---
-
 ## Proof of work
 
-- **1,276,769 tree records** from three cities measured, every prediction in git before the run → Berlin M0 9/14, D0 3/8, D1 6/7
+🔒 = prediction committed in git before the run, seal in the [work log](https://mr73biio.github.io/puls.html). Items without it are earlier work, done before I used this method.
+
+- 🔒 **1,276,769 tree records** from three cities measured → Berlin M0 9/14, D0 3/8, D1 6/7
+- 🔒 **160 of 160** injected GIS errors found, 0 false alarms; verdicts checked against the truth: 10 of 10
 - **149 live trades** audited through `audit.py` → **REJECTED** (saved me from deploying a false edge)
 - **256 strategy variants** tested out-of-sample against four symbols, four market regimes, on Hyperliquid perpetuals → **0 survived** the Bonferroni-corrected threshold
 - **10,000+ trees** mapped from single drone flight to GIS-ready cadastre
